@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF810BF1C63F91000F8643C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF810BE1C63F91000F8643C /* AppDelegate.swift */; };
+		0FF810C11C63F91000F8643C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF810C01C63F91000F8643C /* ViewController.swift */; };
+		0FF810C41C63F91000F8643C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF810C21C63F91000F8643C /* Main.storyboard */; };
+		0FF810C61C63F91000F8643C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF810C51C63F91000F8643C /* Assets.xcassets */; };
+		0FF810C91C63F91000F8643C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF810C71C63F91000F8643C /* LaunchScreen.storyboard */; };
+		0FF810D41C63F91000F8643C /* TioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF810D31C63F91000F8643C /* TioTests.swift */; };
+		0FF810DF1C63F91000F8643C /* TioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF810DE1C63F91000F8643C /* TioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FF810D01C63F91000F8643C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FF810B31C63F91000F8643C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FF810BA1C63F91000F8643C;
+			remoteInfo = Tio;
+		};
+		0FF810DB1C63F91000F8643C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FF810B31C63F91000F8643C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FF810BA1C63F91000F8643C;
+			remoteInfo = Tio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FF810BB1C63F91000F8643C /* Tio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF810BE1C63F91000F8643C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0FF810C01C63F91000F8643C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0FF810C31C63F91000F8643C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FF810C51C63F91000F8643C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FF810C81C63F91000F8643C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FF810CA1C63F91000F8643C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF810CF1C63F91000F8643C /* TioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF810D31C63F91000F8643C /* TioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TioTests.swift; sourceTree = "<group>"; };
+		0FF810D51C63F91000F8643C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF810DA1C63F91000F8643C /* TioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF810DE1C63F91000F8643C /* TioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TioUITests.swift; sourceTree = "<group>"; };
+		0FF810E01C63F91000F8643C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FF810B81C63F91000F8643C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FF810CC1C63F91000F8643C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FF810D71C63F91000F8643C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FF810B21C63F91000F8643C = {
+			isa = PBXGroup;
+			children = (
+				0FF810BD1C63F91000F8643C /* Tio */,
+				0FF810D21C63F91000F8643C /* TioTests */,
+				0FF810DD1C63F91000F8643C /* TioUITests */,
+				0FF810BC1C63F91000F8643C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FF810BC1C63F91000F8643C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FF810BB1C63F91000F8643C /* Tio.app */,
+				0FF810CF1C63F91000F8643C /* TioTests.xctest */,
+				0FF810DA1C63F91000F8643C /* TioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FF810BD1C63F91000F8643C /* Tio */ = {
+			isa = PBXGroup;
+			children = (
+				0FF810BE1C63F91000F8643C /* AppDelegate.swift */,
+				0FF810C01C63F91000F8643C /* ViewController.swift */,
+				0FF810C21C63F91000F8643C /* Main.storyboard */,
+				0FF810C51C63F91000F8643C /* Assets.xcassets */,
+				0FF810C71C63F91000F8643C /* LaunchScreen.storyboard */,
+				0FF810CA1C63F91000F8643C /* Info.plist */,
+			);
+			path = Tio;
+			sourceTree = "<group>";
+		};
+		0FF810D21C63F91000F8643C /* TioTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FF810D31C63F91000F8643C /* TioTests.swift */,
+				0FF810D51C63F91000F8643C /* Info.plist */,
+			);
+			path = TioTests;
+			sourceTree = "<group>";
+		};
+		0FF810DD1C63F91000F8643C /* TioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FF810DE1C63F91000F8643C /* TioUITests.swift */,
+				0FF810E01C63F91000F8643C /* Info.plist */,
+			);
+			path = TioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FF810BA1C63F91000F8643C /* Tio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FF810E31C63F91000F8643C /* Build configuration list for PBXNativeTarget "Tio" */;
+			buildPhases = (
+				0FF810B71C63F91000F8643C /* Sources */,
+				0FF810B81C63F91000F8643C /* Frameworks */,
+				0FF810B91C63F91000F8643C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tio;
+			productName = Tio;
+			productReference = 0FF810BB1C63F91000F8643C /* Tio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FF810CE1C63F91000F8643C /* TioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FF810E61C63F91000F8643C /* Build configuration list for PBXNativeTarget "TioTests" */;
+			buildPhases = (
+				0FF810CB1C63F91000F8643C /* Sources */,
+				0FF810CC1C63F91000F8643C /* Frameworks */,
+				0FF810CD1C63F91000F8643C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FF810D11C63F91000F8643C /* PBXTargetDependency */,
+			);
+			name = TioTests;
+			productName = TioTests;
+			productReference = 0FF810CF1C63F91000F8643C /* TioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FF810D91C63F91000F8643C /* TioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FF810E91C63F91000F8643C /* Build configuration list for PBXNativeTarget "TioUITests" */;
+			buildPhases = (
+				0FF810D61C63F91000F8643C /* Sources */,
+				0FF810D71C63F91000F8643C /* Frameworks */,
+				0FF810D81C63F91000F8643C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FF810DC1C63F91000F8643C /* PBXTargetDependency */,
+			);
+			name = TioUITests;
+			productName = TioUITests;
+			productReference = 0FF810DA1C63F91000F8643C /* TioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FF810B31C63F91000F8643C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Tio;
+				TargetAttributes = {
+					0FF810BA1C63F91000F8643C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0FF810CE1C63F91000F8643C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0FF810BA1C63F91000F8643C;
+					};
+					0FF810D91C63F91000F8643C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0FF810BA1C63F91000F8643C;
+					};
+				};
+			};
+			buildConfigurationList = 0FF810B61C63F91000F8643C /* Build configuration list for PBXProject "Tio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FF810B21C63F91000F8643C;
+			productRefGroup = 0FF810BC1C63F91000F8643C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FF810BA1C63F91000F8643C /* Tio */,
+				0FF810CE1C63F91000F8643C /* TioTests */,
+				0FF810D91C63F91000F8643C /* TioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FF810B91C63F91000F8643C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF810C91C63F91000F8643C /* LaunchScreen.storyboard in Resources */,
+				0FF810C61C63F91000F8643C /* Assets.xcassets in Resources */,
+				0FF810C41C63F91000F8643C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FF810CD1C63F91000F8643C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FF810D81C63F91000F8643C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FF810B71C63F91000F8643C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF810C11C63F91000F8643C /* ViewController.swift in Sources */,
+				0FF810BF1C63F91000F8643C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FF810CB1C63F91000F8643C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF810D41C63F91000F8643C /* TioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FF810D61C63F91000F8643C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF810DF1C63F91000F8643C /* TioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FF810D11C63F91000F8643C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FF810BA1C63F91000F8643C /* Tio */;
+			targetProxy = 0FF810D01C63F91000F8643C /* PBXContainerItemProxy */;
+		};
+		0FF810DC1C63F91000F8643C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FF810BA1C63F91000F8643C /* Tio */;
+			targetProxy = 0FF810DB1C63F91000F8643C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0FF810C21C63F91000F8643C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF810C31C63F91000F8643C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0FF810C71C63F91000F8643C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF810C81C63F91000F8643C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FF810E11C63F91000F8643C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0FF810E21C63F91000F8643C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FF810E41C63F91000F8643C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Tio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0FF810E51C63F91000F8643C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Tio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0FF810E71C63F91000F8643C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.TioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tio.app/Tio";
+			};
+			name = Debug;
+		};
+		0FF810E81C63F91000F8643C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.TioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tio.app/Tio";
+			};
+			name = Release;
+		};
+		0FF810EA1C63F91000F8643C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.TioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0FF810EB1C63F91000F8643C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.TioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FF810B61C63F91000F8643C /* Build configuration list for PBXProject "Tio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF810E11C63F91000F8643C /* Debug */,
+				0FF810E21C63F91000F8643C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FF810E31C63F91000F8643C /* Build configuration list for PBXNativeTarget "Tio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF810E41C63F91000F8643C /* Debug */,
+				0FF810E51C63F91000F8643C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0FF810E61C63F91000F8643C /* Build configuration list for PBXNativeTarget "TioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF810E71C63F91000F8643C /* Debug */,
+				0FF810E81C63F91000F8643C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0FF810E91C63F91000F8643C /* Build configuration list for PBXNativeTarget "TioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF810EA1C63F91000F8643C /* Debug */,
+				0FF810EB1C63F91000F8643C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FF810B31C63F91000F8643C /* Project object */;
+}
