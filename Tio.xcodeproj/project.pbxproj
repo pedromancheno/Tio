@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0FF810BF1C63F91000F8643C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF810BE1C63F91000F8643C /* AppDelegate.swift */; };
-		0FF810C11C63F91000F8643C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF810C01C63F91000F8643C /* ViewController.swift */; };
 		0FF810C41C63F91000F8643C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF810C21C63F91000F8643C /* Main.storyboard */; };
 		0FF810C61C63F91000F8643C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF810C51C63F91000F8643C /* Assets.xcassets */; };
 		0FF810C91C63F91000F8643C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF810C71C63F91000F8643C /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		0FF810BB1C63F91000F8643C /* Tio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF810BE1C63F91000F8643C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FF810C01C63F91000F8643C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0FF810C31C63F91000F8643C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FF810C51C63F91000F8643C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FF810C81C63F91000F8643C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,12 +95,11 @@
 		0FF810BD1C63F91000F8643C /* Tio */ = {
 			isa = PBXGroup;
 			children = (
-				0FF810BE1C63F91000F8643C /* AppDelegate.swift */,
-				0FF810C01C63F91000F8643C /* ViewController.swift */,
-				0FF810C21C63F91000F8643C /* Main.storyboard */,
-				0FF810C51C63F91000F8643C /* Assets.xcassets */,
-				0FF810C71C63F91000F8643C /* LaunchScreen.storyboard */,
-				0FF810CA1C63F91000F8643C /* Info.plist */,
+				0FF810EC1C63FCD600F8643C /* Models */,
+				0FF810EE1C63FCE700F8643C /* ViewModels */,
+				0FF810EF1C63FCEC00F8643C /* Views */,
+				0FF810ED1C63FCDD00F8643C /* ViewControllers */,
+				0FF810F01C63FCF300F8643C /* Supporting Files */,
 			);
 			path = Tio;
 			sourceTree = "<group>";
@@ -123,6 +120,46 @@
 				0FF810E01C63F91000F8643C /* Info.plist */,
 			);
 			path = TioUITests;
+			sourceTree = "<group>";
+		};
+		0FF810EC1C63FCD600F8643C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0FF810ED1C63FCDD00F8643C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0FF810EE1C63FCE700F8643C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		0FF810EF1C63FCEC00F8643C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0FF810F01C63FCF300F8643C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FF810BE1C63F91000F8643C /* AppDelegate.swift */,
+				0FF810C21C63F91000F8643C /* Main.storyboard */,
+				0FF810C51C63F91000F8643C /* Assets.xcassets */,
+				0FF810C71C63F91000F8643C /* LaunchScreen.storyboard */,
+				0FF810CA1C63F91000F8643C /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +293,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF810C11C63F91000F8643C /* ViewController.swift in Sources */,
 				0FF810BF1C63F91000F8643C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
