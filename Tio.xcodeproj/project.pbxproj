@@ -13,6 +13,7 @@
 		0FF810C91C63F91000F8643C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF810C71C63F91000F8643C /* LaunchScreen.storyboard */; };
 		0FF810D41C63F91000F8643C /* TioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF810D31C63F91000F8643C /* TioTests.swift */; };
 		0FF810DF1C63F91000F8643C /* TioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF810DE1C63F91000F8643C /* TioUITests.swift */; };
+		0FF810F21C63FDC800F8643C /* Medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF810F11C63FDC800F8643C /* Medium.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		0FF810DA1C63F91000F8643C /* TioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF810DE1C63F91000F8643C /* TioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TioUITests.swift; sourceTree = "<group>"; };
 		0FF810E01C63F91000F8643C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF810F11C63FDC800F8643C /* Medium.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Medium.swift; path = Source/Medium.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		0FF810EC1C63FCD600F8643C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0FF810F11C63FDC800F8643C /* Medium.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF810F21C63FDC800F8643C /* Medium.swift in Sources */,
 				0FF810BF1C63F91000F8643C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
