@@ -14,6 +14,9 @@
 		0FF810D41C63F91000F8643C /* TioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF810D31C63F91000F8643C /* TioTests.swift */; };
 		0FF810DF1C63F91000F8643C /* TioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF810DE1C63F91000F8643C /* TioUITests.swift */; };
 		0FF810F21C63FDC800F8643C /* Medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF810F11C63FDC800F8643C /* Medium.swift */; };
+		0FF811011C6928BB00F8643C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF811001C6928BB00F8643C /* Movie.swift */; };
+		0FF811041C6929FB00F8643C /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF811031C6929FB00F8643C /* NetworkController.swift */; };
+		0FF811061C69312F00F8643C /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF811051C69312F00F8643C /* MovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		0FF810DE1C63F91000F8643C /* TioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TioUITests.swift; sourceTree = "<group>"; };
 		0FF810E01C63F91000F8643C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FF810F11C63FDC800F8643C /* Medium.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Medium.swift; path = Source/Medium.swift; sourceTree = "<group>"; };
+		0FF811001C6928BB00F8643C /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = Source/Movie.swift; sourceTree = "<group>"; };
+		0FF811031C6929FB00F8643C /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkController.swift; path = Source/NetworkController.swift; sourceTree = "<group>"; };
+		0FF811051C69312F00F8643C /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieViewController.swift; path = Source/MovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		0FF810BD1C63F91000F8643C /* Tio */ = {
 			isa = PBXGroup;
 			children = (
+				0FF811021C69295C00F8643C /* Controller */,
 				0FF810EC1C63FCD600F8643C /* Models */,
 				0FF810EE1C63FCE700F8643C /* ViewModels */,
 				0FF810EF1C63FCEC00F8643C /* Views */,
@@ -128,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				0FF810F11C63FDC800F8643C /* Medium.swift */,
+				0FF811001C6928BB00F8643C /* Movie.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -135,6 +143,7 @@
 		0FF810ED1C63FCDD00F8643C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0FF811051C69312F00F8643C /* MovieViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -163,6 +172,14 @@
 				0FF810CA1C63F91000F8643C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FF811021C69295C00F8643C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0FF811031C6929FB00F8643C /* NetworkController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,8 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF811041C6929FB00F8643C /* NetworkController.swift in Sources */,
+				0FF811061C69312F00F8643C /* MovieViewController.swift in Sources */,
 				0FF810F21C63FDC800F8643C /* Medium.swift in Sources */,
 				0FF810BF1C63F91000F8643C /* AppDelegate.swift in Sources */,
+				0FF811011C6928BB00F8643C /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +546,7 @@
 				0FF810E51C63F91000F8643C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FF810E61C63F91000F8643C /* Build configuration list for PBXNativeTarget "TioTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +555,7 @@
 				0FF810E81C63F91000F8643C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FF810E91C63F91000F8643C /* Build configuration list for PBXNativeTarget "TioUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +564,7 @@
 				0FF810EB1C63F91000F8643C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
