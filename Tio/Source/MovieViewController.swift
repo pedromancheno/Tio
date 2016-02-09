@@ -16,8 +16,12 @@ class MovieViewController: UIViewController {
     
         super.viewWillAppear(animated)
         
-        networkControler.topMovie { (callback: Dictionary<String, String>?) -> Void in
-            
+        networkControler.topMovie { (success, jsonData, error) -> Void in
+            if (success) {
+                let movie = Movie(jsonData: jsonData!)
+            } else {
+                // report error
+            }
         }
     }
     

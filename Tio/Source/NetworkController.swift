@@ -10,18 +10,18 @@ import Foundation
 
 struct NetworkController {
     
-    func httpGet(request: NSURLRequest!, callback: (Bool, Dictionary<String, AnyObject>?, NSError?) -> Void) {
+    func httpGet(request: NSURLRequest!, callback: (success: Bool, jsonData: Dictionary<String, AnyObject>?, error: NSError?) -> Void) {
         let session = NSURLSession.sharedSession()
         let task = session.dataTaskWithRequest(request){
             (data, response, error) -> Void in
             if error != nil {
-                callback(false, nil, error)
+                callback(success: false, jsonData: nil, error: error)
             } else {
                 do {
                     let jsonData = try NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions.MutableContainers ) as! Dictionary<String, AnyObject>
-                    callback(true, jsonData, nil)
+                    callback(success: true, jsonData: jsonData, error: nil)
                 } catch {
-                    callback(false, nil, nil)
+                    callback(success: false, jsonData: nil, error: nil)
                 }
             }
         }
@@ -29,11 +29,11 @@ struct NetworkController {
     }
     
     
-    func topMovie(callback: (Dictionary<String, String>?) -> Void) {
+    func topMovie(callback: (success: Bool, jsonData: Dictionary<String, AnyObject>?, error: NSError?) -> Void) {
         let url: NSURL = NSURL(string: "https://api.themoviedb.org/3/movie/550?api_key=01dd8815c3b2f00ec64400e77e5b47b5")!
         let request: NSURLRequest = NSURLRequest(URL: url)
-        httpGet(request) { (success: Bool, jsonData:Dictionary<String, AnyObject>?, error:NSError?) -> Void in
-            
+        httpGet(request) { (success, jsonData, error) -> Void in
+            callback(success: success, jsonData: jsonData, error: error)
         }
     }
 }
